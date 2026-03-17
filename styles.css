@@ -1,0 +1,70 @@
+table{
+    background-color: #d45cd4;
+}
+h1{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+input{
+    background-color: #e0cce0; 
+}
+.education-section {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+}
+
+
+.title {
+  color: #b388eb; 
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.input-group label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #e0cce0; 
+  height: 10px;
+  outline: none;
+}
+
+.input-signature{
+    font-size: ;
+}
+button{
+    background-color:purple;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+h{
+    color: tomato;
+    text-decoration: underline;
+    font-weight: bold;
+}
