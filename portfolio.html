@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+        body{
+            background: linear-gradient(
+        rgba(0, 0, 0, 0.726), 
+        rgba(207, 98, 8, 0.479),
+        rgba(82, 72, 50, 0.726)
+    ), 
+    url(port.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:35px 0 250px 200px;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            margin: 0 20px 0 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .navbar .list{
+            list-style: none;
+            display: flex;
+            margin: 30px 150px 0 0;
+            gap: 20px;
+        }
+        a:hover{
+            color: red;
+        }
+        .para{
+            color: white;
+            margin-left: 200px;
+            font-size: 70px;
+        }
+        button{
+            background: transparent;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            border: 2px solid crimson;
+            padding:15px 30px;
+        }
+        button:hover{
+            background-color: crimson;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="navbar">
+        <a href="">MIKE</a>
+        <ul class="list">
+            <li><a href="">HOME</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="para">
+        <h1>
+            Hello, <br>
+            My Name is <br>Michael
+        </h1>
+        
+        <button>PORTFOLIO</button>
+    </div>
 </body>
 </html>
