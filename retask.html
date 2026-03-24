@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>retasck</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    .container{
+        background-image: url(bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        justify-content: center;
+        margin: 70px 10px;
+        border-radius: 10px;
+        padding: 10px;
+        height: 600px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .first{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .second{
+        padding-right: 30px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text{
+        margin: 100px 0 0 80px;
+    }
+    .text p{
+        font-size: 10px;
+        margin: 0 0 20px 40px;
+    }
+    .content button{
+        margin: 0 0 0 35px;
+        color: white;
+        background-color: rgb(98, 201, 241);
+        padding: 5px 40px;
+        font-size: 20px;
+        border: 10px;
+        border-radius: 20px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="nav">
+                <ul class="first">
+                    <li><a href="#"><i class="fa-solid fa-bars-staggered"></i></a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </ul>
+            <ul class="second">
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h1>Simple <br> Web Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Pariatur, illo quod nostrum quos sapiente <br> consequuntur ipsam alias esse consectetur quisquam!</p>
+                <button>Portfolio</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

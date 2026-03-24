@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Course</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<style>
+    body {
+    background: linear-gradient(
+        rgba(172, 53, 203, 0.7), 
+        rgba(172, 53, 203, 0.7)
+    ), 
+    url(bg.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .navbar, .list, .icon{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        margin: 30px;
+    }
+.navbar {
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+    .navbar a:hover{
+        color: rgb(248, 1, 43);
+    }
+    .para{
+        margin: 0 0 0 52px;
+        font-size: 15px;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin: 200px auto;
+    }
+    h1{
+        margin:0;
+        font-size: 60px;
+    }
+    .heading p{
+        font-size: 20px;
+    }
+    button{
+        background-color: rgb(243, 116, 137);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+    }
+    .courses{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 100px;
+    }
+    button:hover{
+        background-color: red;
+    }
+    .section-heading{
+        background-color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    h2{
+        background-color: white;
+        margin-bottom: 0;
+    }
+    img{
+        height: 200px;
+        width: 300px;
+    }
+    .profile{
+        border-radius: 100px;
+        height: 50px;
+        width: 50px;
+    }
+    .hrs{
+        color: grey;
+    }
+    .footer{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .ending{
+        padding-top: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        color: grey;
+    }
+</style>
+<body>
+    
+<div class="navbar">
+    <a href="">
+        <i class="fa-regular fa-gem" style="font-size: 35px; color:rgb(240, 114, 135);"></i>
+        <sup><strong  style="font-size: 35px;">Study Course</strong><p class="para"><sup>journey to success</sup></p></sup>
+    </a>
+    <ul class="list">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Courses</a></li>
+        <li><a href="">Page</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <div class="icon">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
+        <i class="fa-solid fa-user" style="color: rgb(255, 255, 255);"></i>
+        <a href="">Login</a>
+        <i class="fa-regular fa-moon" style="color: rgb(255, 255, 255);"></i>
+    </div>
+</div> 
+<div class="heading">
+    <h1>
+        50% Discount on all Popular 
+        <h1>Courses</h1>
+    </h1>
+    
+    <p>Take the first step to your journey to seccess with us</p>
+    <button>
+        Ready to get started?
+    </button>
+    
+</div>
+
+<div class="section-heading">
+    
+    <p>Join our learn courses</p>
+    <h2>Featured online Courses</h2>
+</div>
+<section class="courses">
+    <div class="card">
+        <div class="box">
+            <img src="01.png" alt="">
+            <div class="title">
+                <span style="color: red;">$35.00</span>
+                <h3>Open Programming Courses for <br>
+                everyone :Python</h3>
+                <span class="hrs"><i class="fa-regular fa-clock"></i>20hrs
+                    <span><i class="fa-solid fa-lock"></i>50</span>
+                </span>
+
+
+                <div class="footer">
+                    <img class="profile" src="profile.png" alt="">
+                    <span style="color: grey;">by <strong style="color: black;">Olivia</strong> in <strong style="color: black;">Programming</strong> </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="card">
+        <div class="box">
+            <img src="02.png" alt="">
+        </div>
+        <div class="title">
+            <span style="color: red;">$0.00</span>
+            <h3>Learning to write as a clean and <br>
+            professional Author</h3>
+            <span class="hrs"><i class="fa-regular fa-clock"></i>20hrs
+                <span><i class="fa-solid fa-lock"></i>50</span>
+            </span>
+
+            <div class="footer">
+                <img class="profile" src="profile2.png" alt="">
+                <span style="color: grey;">by <strong style="color: black;">Isabella</strong> in <strong style="color: black;">Teaching</strong> </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <img src="03.png" alt="">
+        </div>
+        <div class="title">
+            <span style="color: red;">$49.00</span>
+            <h3>Learn Master JQuery in a short<br>
+            Period of Time</h3>
+            <span class="hrs"><i class="fa-regular fa-clock"></i>20hrs
+                <span><i class="fa-solid fa-lock"></i>50</span>
+            </span>
+            <div class="footer">
+                <img class="profile" src="profile3.png" alt=""> <span style="color: grey;">by <strong style="color: black;">willium</strong> in <strong style="color: black;">Programming</strong> </span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="ending">
+    <h5> control your personal preference to get notified about <br> appropriate courses <span style="color: red;">View All Courses</span></h5>
+    
+</div>
+</body>
+</html>

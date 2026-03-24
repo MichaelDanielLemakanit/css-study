@@ -51,30 +51,46 @@
             padding: 8px 30px 8px 30px;
             margin: 0 160px 0 ;
         }
+        div p::before{
+            content:"" ;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: rgb(151, 42, 42);
+        }
 
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <ul class="list">
-        <i class="fa-solid fa-bars" style="color: white;"></i>
-        
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-        </ul>
-        <a>Contact us</a>
+    <div class="container">
+        <div class="sidebar">
+            <ul class="list">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+            
+                <li><a href="#Home" data-after="Home">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <a>Contact us</a>
+        </div>
+        <di class="heading">
+            <h1>
+                Simple <br>Web Design
+            </h1>
+        </di>
+           <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Debitis iusto eveniet harum cumque corporis <br>maiores illum adipisci beatae enim ex atque, maxime est nostrum quaerat <br>alias minus omnis nihil dolorum?
+            </p>
+        <button>
+            Portfolio
+        </button>
+           </div>
+        <div class="image">
+
+        </div>
     </div>
-    <di class="heading">
-        <h1>
-            Simple <br>Web Design
-        </h1>
-    </di>
-        <p>
-            Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Debitis iusto eveniet harum cumque corporis <br>maiores illum adipisci beatae enim ex atque, maxime est nostrum quaerat <br>alias minus omnis nihil dolorum?
-        </p>
-    <button>
-        Portfolio
-    </button>
 </body>
 </html>
