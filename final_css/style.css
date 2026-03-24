@@ -1,0 +1,135 @@
+.main{
+    background-color: #66cff8;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px 0 130px;
+}
+.para{
+    font-size: 10px;
+    padding-left: 40px;
+    font-size: 10px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(247, 82, 151)
+}
+.icon{
+    padding-top: 15px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 200px auto;
+}
+h1{
+    font-family: sans-serif;
+    margin:0;
+    font-size: 60px;
+}
+.heading{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+.heading p{
+    font-size: 15px;
+}
+button{
+    background-color: rgb(247, 82, 151);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 70px;
+    margin:0 0 60px 0;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(22, 241, 121);
+}
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.pfl{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: none;
+}
+
+.mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+h2{
+    color: black;
+    font-size: 20px;
+    padding-left: 30px;
+}
+h3{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;              
+    flex-wrap: wrap;        
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    height: auto;         
+    width: 300px;
+    background-color: rgb(247, 237, 237);
+    border-radius: 10px;  
+    overflow: hidden;     
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+.rating{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 15px 0 10px;
+    color: gold;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;       
+    gap: 10px;
+    background-color: rgb(247, 237, 237);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
