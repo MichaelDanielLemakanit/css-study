@@ -1,5 +1,5 @@
 .main {
-    background-image: linear-gradient(rgba(15, 31, 37, 0.8), rgba(102, 207, 248, 0.8)), url('images/bg.png');
+    background-image: linear-gradient(rgb(126, 42, 42), rgba(0, 0, 0, 0.699)), url('images/bg1.png');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 120px 0 130px;    margin-bottom: 200px;
+    position: relative;
+    padding: 20px;
 }
 .para{
     font-size: 10px;
@@ -26,11 +28,11 @@
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.664);
 }
 a:hover{
-    text-decoration: underline;
-    color: rgb(247, 82, 151)
+    text-decoration: none;
+    color:white;
 }
 .icon{
     padding-top: 15px;
@@ -55,7 +57,7 @@ h1{
     font-size: 15px;
 }
 button{
-    background-color: rgb(247, 82, 151);
+    background-color:rgb(126, 42, 42);
     color: white;
     padding: 10px 25px;
     border: none;
@@ -77,14 +79,22 @@ svg {
 }
 img{
     height: 200px;
-    width: 300px;
+    width: 350px;
 }
 
 .pfl{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 100px;
-    border: none;
+}
+.spn{
+padding-left: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
 .mini{
@@ -100,27 +110,41 @@ h2{
     padding-left: 30px;
 }
 h3{
-    padding-left: 10px;
-    font-size: 12px;
+    font-size: 16px;
+    color: #333;
+    margin: 8px;
 }
+
 .course-container {
     display: flex;
     justify-content: center;
     gap: 30px;              
     flex-wrap: wrap;        
     padding: 20px;
+    background-color: white
 }
+
 
 .gallery {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: auto;         
-    width: 300px;
-    background-color: white;
+    width: 350px;
     border-radius: 10px;  
     overflow: hidden;     
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    box-shadow: 0 4px 8px black
 }
+
+.gallery :hover{
+    background-color: rgb(126, 42, 42);
+    transition: 3s;
+}
+.content{
+    background-color: white;
+    padding-bottom: 13px;
+}
+
 .rating{
     display: flex;
     list-style: none;
@@ -128,18 +152,10 @@ h3{
     padding: 0 15px 0 10px;
     color: gold;
 }
-
-.profile {
-    display: flex;
-    align-items: center;
-    padding: 10px;       
-    gap: 10px;
-    background-color: white;
-    border-top: 1px solid rgb(255, 255, 255);
-}
 .footer{
     display: flex;
     justify-content:center;
     font-size: 15px;
     margin-top: 50px;
 }
+

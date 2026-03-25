@@ -1,0 +1,10 @@
+.relative{
+    background-color: skyblue;
+    height: 200px;
+    position: relative;
+}
+.absolute{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+}
